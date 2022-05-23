@@ -38,7 +38,7 @@ TensorRT>=7.2.3
 
 ![akaze-video](.\image\superpoint-superglue-video.png)
 
-## reference
+## Reference
 
 ```
 @inproceedings{sarlin20superglue,
