@@ -38,6 +38,9 @@ TensorRT>=7.2.3
 
 ![akaze-video](.\image\superpoint-superglue-video.png)
 
+#### Welcome to add WeChat and join the group discussion
+
+
 ## Reference
 
 ```
