@@ -26,7 +26,7 @@ TensorRT>=7.2.3
 
 ##### camera
 
-![akaze-video](.\image\akaze-video.png)
+![akaze-video](./image/akaze-video.png)
 
 2. superpoint-superpoint feature point detection and matching display.
 
@@ -36,10 +36,10 @@ TensorRT>=7.2.3
 
 ##### camera
 
-![akaze-video](.\image\superpoint-superglue-video.png)
+![akaze-video](./image/superpoint-superglue-video.png)
 
 #### Welcome to add WeChat and join the group discussion
-![523539369cec4410e5a28336208fc94](.\image\523539369cec4410e5a28336208fc94.jpg)
+![523539369cec4410e5a28336208fc94](./image/523539369cec4410e5a28336208fc94.jpg)
 
 ## Reference
 
