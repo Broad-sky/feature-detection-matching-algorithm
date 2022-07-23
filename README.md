@@ -78,6 +78,8 @@ WeChat ID: sigma1573
 
 Welcome to *add* WeChat(note: unit + name) and join the group discussion！
 
+For more details, please refer to zhihu: https://zhuanlan.zhihu.com/p/518877309
+
 ## SuperPoint
 
 Superpoint pretrained models are from [magicleap/SuperPointPretrainedNetwork.](https://github.com/magicleap/SuperPointPretrainedNetwork)
