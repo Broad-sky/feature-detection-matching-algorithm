@@ -76,7 +76,7 @@ traditional algorithms.
 
 Welcome to *add* WeChat(note: unit + name) and join the group discussion
 
-<img src="./image/523539369cec4410e5a28336208fc94.jpg" alt="523539369cec4410e5a28336208fc94" style="zoom: 50%;" />
+<img src="./image/523539369cec4410e5a28336208fc94.jpg" alt="523539369cec4410e5a28336208fc94" style="zoom: 25%;" />
 
 ## SuperPoint/SuperGlue
 
