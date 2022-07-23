@@ -74,16 +74,17 @@ traditional algorithms.
 
 ## Discussion
 
-Welcome to *add* WeChat(note: unit + name) and join the group discussion
+WeChat ID: sigma1573
 
-<img src="./image/523539369cec4410e5a28336208fc94.jpg" alt="523539369cec4410e5a28336208fc94" style="zoom: 25%;" />
+Welcome to *add* WeChat(note: unit + name) and join the group discussion！
 
-## SuperPoint/SuperGlue
+## SuperPoint
 
 Superpoint pretrained models are from [magicleap/SuperPointPretrainedNetwork.](https://github.com/magicleap/SuperPointPretrainedNetwork)
 
-SuperGlue pretrained models are from [magicleap/SuperGluePretrainedNetwork.](https://github.com/magicleap/SuperGluePretrainedNetwork)
+## SuperGlue
 
+SuperGlue pretrained models are from [magicleap/SuperGluePretrainedNetwork.](https://github.com/magicleap/SuperGluePretrainedNetwork)
 
 ## Reference
 
