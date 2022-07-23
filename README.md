@@ -40,7 +40,7 @@ TensorRT>=7.2.3
 
 
 ## Welcome to add WeChat(note: unit + name) and join the group discussion
-![523539369cec4410e5a28336208fc94](./image/523539369cec4410e5a28336208fc94.jpg)
+<img src="./image/523539369cec4410e5a28336208fc94.jpg" alt="523539369cec4410e5a28336208fc94" style="zoom: 50%;" />
 
 
 ## Reference
