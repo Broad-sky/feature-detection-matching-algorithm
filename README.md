@@ -70,7 +70,7 @@ traditional algorithms.
 
 - [ ]  Optimizing post-processing using custom TensorRT layer or Cublass.
 - [ ]  Model conversion script.
-- [ ] Future support for FP16/INT8.
+- [ ]  support for FP16/INT8.
 
 ## Discussion
 
