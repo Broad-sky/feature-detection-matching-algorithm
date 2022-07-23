@@ -4,9 +4,19 @@
 
 ## Introduction		
 
-This warehouse mainly uses C++ to compare traditional image feature detection and matching, and deep learning feature detection and matching algorithm models. Deep learning includes superpoint-superglue, and traditional algorithms include zkaze, surf, ORB, etc.
+This warehouse mainly uses C++ to compare traditional image feature detection and matching, and deep learning feature detection and matching algorithm models. Deep learning includes superpoint-superglue, and traditional algorithms include AKAZE, SURF, ORB, etc.
+
+1. akaze feature point detection and matching display.
+
+![akaze-image](./image/akaze_example.gif)
+
+2. superpoint-superpoint feature point detection and matching display.
+
+![akaze-video](./image/deep-learning_example.gif)
 
 ## Dependencies
+
+All operating environments, please strictly follow the given configuration，the configuration is as follows：
 
 OpenCV >= 3.4
 
@@ -16,31 +26,63 @@ CUDNN>=8.02
 
 TensorRT>=7.2.3
 
-## Contents
+## How to Run
 
-1. akaze feature point detection and matching display.
+1. build.
 
-##### image pair
+```
+cd feature-detection-matching-algorithm/
+mkdir build
+cd build
+cmake ..
+make
+```
 
-![akaze-image](./image/akaze-image.png)
+2. run camera.
 
-##### camera
+deep learning algorithms.
 
-![akaze-video](./image/akaze-video.png)
+```
+./IR --deeplearning --camera 0
+```
 
-2. superpoint-superpoint feature point detection and matching display.
+traditional algorithms.
 
-##### image pair
+```
+./IR --traditional  --camera 0
+```
 
-![superglue-image](./image/superpoint-superglue-image.png)
+3. run image-pair.
 
-##### camera
+deep learning algorithms.
 
-![akaze-video](./image/superpoint-superglue-video.png)
+```
+./IR --deeplearning --image-pair xx01.jpg xx02.jpg
+```
 
+traditional algorithms.
 
-## Welcome to add WeChat(note: unit + name) and join the group discussion
+```
+./IR --traditional  --image-pair xx01.jpg xx02.jpg
+```
+
+## TODO
+
+- [ ]  Optimizing post-processing using custom TensorRT layer or Cublass.
+- [ ]  Model conversion script.
+- [ ] Future support for FP16/INT8.
+
+## Discussion
+
+Welcome to *add* WeChat(note: unit + name) and join the group discussion
+
 <img src="./image/523539369cec4410e5a28336208fc94.jpg" alt="523539369cec4410e5a28336208fc94" style="zoom: 50%;" />
+
+## SuperPoint/SuperGlue
+
+Superpoint pretrained models are from [magicleap/SuperPointPretrainedNetwork.](https://github.com/magicleap/SuperPointPretrainedNetwork)
+
+SuperGlue pretrained models are from [magicleap/SuperGluePretrainedNetwork.](https://github.com/magicleap/SuperGluePretrainedNetwork)
 
 
 ## Reference
