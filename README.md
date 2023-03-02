@@ -66,6 +66,10 @@ traditional algorithms.
 ./IR --traditional  --image-pair xx01.jpg xx02.jpg
 ```
 
+## Models TRT
+https://pan.baidu.com/s/1CoK_KuC42BFD-mtO-BBhHg 
+Code：cb7x 
+
 ## TODO
 
 - [ ]  Optimizing post-processing using custom TensorRT layer or Cublass.
